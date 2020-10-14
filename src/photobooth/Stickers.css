@@ -1,0 +1,79 @@
+.stickers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stickers h3 {
+    font-size: 1.1rem;
+}
+
+.stickers__carousel {
+    width: 285px;
+    height: 95px;
+    background-color: #ccc;
+    padding: 12px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.stickers__carousel .stickers__button {
+    width: 65px;
+    height: 65px;
+    border-width: 0;
+    outline: none;
+}
+
+.stickers__carousel .stickers__button:hover {
+    cursor: pointer;
+}
+
+.stickers__carousel .stickers__button img{
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.stickers > .stickers__button {
+    background-color: var(--razzmatazz);
+    border: none;
+    width: 70%;
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 15px 0;
+    border-radius: 35px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.stickers > .stickers__button:hover {
+   cursor: pointer;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.owl-prev span {
+    font-size: 50px !important;
+    position: absolute;
+    left: -36px;
+    top: 2%;
+}
+
+.owl-next span {
+    font-size: 50px !important;
+    position: absolute;
+    right: -36px;
+    top: 2%;
+}
+

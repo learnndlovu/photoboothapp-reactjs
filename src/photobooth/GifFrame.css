@@ -1,0 +1,22 @@
+.gifFrame > h3 {
+    text-align: center;
+}
+
+ .gifFrame__button {
+    background-color: var(--razzmatazz);
+    border: none;
+    margin: 10px auto;
+    width: 250px;
+    padding: 15px 0;
+    border-radius: 35px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.gifFrame > .gifFrame__button:hover {
+   cursor: pointer;
+}

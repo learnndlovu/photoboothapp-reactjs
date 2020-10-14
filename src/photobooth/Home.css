@@ -1,0 +1,32 @@
+.home {
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.home > .home__title {
+    font-size: 30px;
+}
+
+.home > .home__quote,
+.home > .home__author {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home .home__snap__button {
+    background-color: var(--razzmatazz);
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 60px;
+    width: 255px;
+    text-align: center;
+}

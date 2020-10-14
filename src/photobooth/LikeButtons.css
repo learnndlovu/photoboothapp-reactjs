@@ -1,0 +1,40 @@
+.likeButtons h3{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.likeButtons__list {
+    width: 220px;
+    height: 106px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.likeButtons__list > .likeButtons__option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.likeButtons__list > .likeButtons__option .MuiSvgIcon-root {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.likeButtons__list > .likeButtons__option button{
+    background-color: var(--razzmatazz);
+    border: none;
+    outline: none;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-bottom: 10px;
+}
+
+.likeButtons__list > .likeButtons__option button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.snap {
+    display: flex;
+    flex-direction: column;
+}
+
+.snap audio,
+.snap .canvas { display: none; }
+
+.snap canvas,
+.snap video,
+.snap .snap__container > img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+}
+
+
+.snap #canvas__sticker,
+.snap .upper-canvas { z-index: 100; } 
+
+.snap .content-area{
+     position: relative;
+     width: 300px;
+}
+
+.snap p.snap__counter {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    color: #ffffff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    top: 0;
+}
+
+.snap .strip {
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+}
+

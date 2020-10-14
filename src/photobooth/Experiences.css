@@ -1,0 +1,37 @@
+.experiences h3{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.experiences__list {
+    width: 300px;
+    height: 106px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.experiences__list > .experiences__option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiences__list > .experiences__option .MuiSvgIcon-root {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.experiences__list > .experiences__option button{
+    background-color: var(--razzmatazz);
+    border: none;
+    outline: none;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-bottom: 10px;
+    cursor: pointer
+}
